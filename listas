@@ -6,3 +6,19 @@ print ("Listas de números", numeros)
 #Acceso a elementos individuales de la lista
 print("Lista de números", numeros[0]) #Los indices en comienzan con 0
 print("Lista de números", numeros[-1]) #-1 accede al último elemento
+
+#Operaciones basicas de listas
+#Agregar un elemento al final de la lista
+numeros.append(6)
+print("Agregar despues de 6:",numeros)
+
+#Eliminar un elemento de la lista
+numeros.remove(2)
+print("Listas despues de eliminar 2:",numeros)
+
+#Eliminar un elemento de la lista como indice
+numeros.pop(0)
+print("Listas después de eliminart el indice 0:",numeros )
+
+#longitud de listas
+print("Longitud de als listas :", len(numeros))
